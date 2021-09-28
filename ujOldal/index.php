@@ -9,41 +9,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <style>
-        *{color: rgb(77, 77, 77);}
-        body{background-color: #333;}
-        .container{background-color: #eee;}
-
-        #header{
-            background-color: rgb(42, 163, 42);
-            background-image: url(./bg.jpg);
-            background-position: center;
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            padding: 0;
-        }
-        #header h1{
-            height: 200px;
-            line-height: 200px;
-            color: white;
-            font-size: 66px;
-            background-color: rgba(51, 51, 51, 0.5);
-            padding-left: 20px;
-        }
-        #header .nav-bar{
-            background-color: rgba(255, 255, 255, 0.7);
-        }
-    </style>
-    <title>Festékbolt</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <title>DIY Barkácsáruház</title>
 </head>
 <body>
     <div class="container-fluid container" id="header">
-        <h1>DIY Festékbolt</h1>
+        <h1>DIY Barkácsáruház</h1>
         <div class="nav-bar nav">
-            <li class="nav-item"><a class="nav-link" href="">Főoldal</a></li>
-            <li class="nav-item"><a class="nav-link" href="">Festékek</a></li>
-            <li class="nav-item"><a class="nav-link" href="">Faagyagok</a></li>
+            <li class="nav-item"><a class="nav-link" href="./index.html">Főoldal</a></li>
+            <li class="nav-item"><a class="nav-link" href="./festekek.html">Festékek</a></li>
+            <li class="nav-item"><a class="nav-link" href="./faanyagok.html">Faagyagok</a></li>
         </div>
     </div>
     <div class="container">
